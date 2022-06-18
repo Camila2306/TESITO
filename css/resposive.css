@@ -1,0 +1,73 @@
+.uln2{
+display: none;
+}
+body{
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+@media (max-width: 840px){
+    nav{
+        flex-direction: column;
+        z-index: 1;
+        position: fixed;
+    }
+    .uln{
+        display: none;
+    }
+    .uln li{
+        width: 95%;
+        margin-top: 10px;
+        border-bottom: 1px solid #ccff00;
+        box-shadow: 0 5px 5px 2px #fff159;
+      
+    }
+    .uln li a :hover{
+        background-color: #262727;
+    }
+    
+    .imgtesito{
+        width: 22% !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+   
+    
+    .titulo1{
+        font-size: 20px;
+    }
+    .presentacion{
+        font-size: 3vh;
+    }
+    .presentacion2{
+        font-size: 3vh;
+    }
+    .presentacion3{
+        font-size: 3vh;
+    }
+    footer{
+        display: block;
+    }
+    .meunusde {
+        width: 80px;
+        margin: 20px;
+    }
+    .uln2 {
+        display: flex;
+        justify-content: end;
+        list-style: none;
+        position: fixed;
+        right: 0;
+    }
+    .menudesple{
+        cursor: pointer;
+    }
+    
+}
+@media (min-width: 841px){
+    
+    .uln{
+        display: block !important;
+    }
+    
+}

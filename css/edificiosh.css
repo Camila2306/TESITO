@@ -1,0 +1,65 @@
+body{
+    background: linear-gradient(to right, #870000, #190a05); 
+    padding: 10px;
+}
+.contenedor{
+    padding: 20px;
+    animation: RBGCOLOR 3s linear infinite alternate both;
+}
+@keyframes RBGCOLOR{
+    0%{
+        box-shadow: 0 0 15px #ff0000;
+       
+    }
+    10%{
+        box-shadow: 0 0 15px #ff4600;
+       
+    }
+    20%{
+        box-shadow: 0 0 15px #ff9900;
+       
+    }
+    30%{
+        box-shadow: 0 0 15px #efff00;
+        
+    }
+    40%{
+        box-shadow: 0 0 15px #62ff00;
+       
+    }
+    50%{
+        box-shadow: 0 0 15px #00ff43;
+        
+    }
+    60%{
+        box-shadow: 0 0 15px #00f3ff;
+        
+    }
+    70%{
+        box-shadow: 0 0 15px #0072ff;
+        
+    }
+    80%{
+        box-shadow: 0 0 15px #1b00ff;
+        
+    }
+    90%{
+        box-shadow: 0 0 15px #9100ff;
+        
+    }
+    100%{
+        box-shadow: 0 0 15px #ff00b1;
+        
+    }
+}
+h1.edificoh {
+    text-align: center;
+    font-family: "Segoe UI";
+    color: white;
+    font-weight: 400;
+    margin: 10px;
+}
+img.plano {
+    margin-bottom: 20px;
+    width: 100%;
+}

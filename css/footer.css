@@ -1,0 +1,18 @@
+footer {
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    font-family: Arial;
+    border-top: 2px solid;
+    align-items: center;
+    color: white;
+}
+.ulfooter {
+    list-style: none;
+    display: flex;
+}
+img.reso {
+    width: 50px;
+    margin: 20px;
+}
